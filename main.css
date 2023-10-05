@@ -5,24 +5,21 @@
 }
 
 header{
-    font-family: 'Pixelify Sans', cursive;
-    font-size: 150%;
-}
-
-body, input, textarea{
-    font-family: 'Exo 2', sans-serif;
-}
-
-header{
+    font-size: 170%;
     padding: 16px 0;
-    background-color: #182c61;
+    background-color: #055565;
     color: #ecf0f1;
+}
+
+header h1{
+    font-family: 'Fuggles', cursive;
 }
 
 header nav li{
     display: inline;
     margin-left: 16px;
     font-size: 20px;
+    font-family: 'Prata', serif;
 }
 
 header nav li a{
@@ -30,16 +27,20 @@ header nav li a{
     text-decoration: none;
 }
 
-.container{
-    max-width: 1288px;
-    width: 100%;
-    margin: 0 auto;
-}
-
 header .container, section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+body, input, textarea{
+    font-family: 'Prata', serif;
+}
+
+.container{
+    max-width: 1288px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .brands-list img{
@@ -51,22 +52,23 @@ header .container, section .container {
     margin-right: 8px;
 }
 
+section{
+    padding: 24px 0;
+    color: #055565;
+}
+
 section .container{
     align-items: flex-start;
 }
 
-section{
-    padding: 24px 0;
-}
-
 section h2{
     margin-bottom: 16px;
-    font-family: 'Pixelify Sans', cursive;
+    font-family: 'DM Serif Display', serif;
     font-size: 35px;
 }
 
-section{
-    color: #182c61;
+section h3{
+    margin-bottom: 16px;
 }
 
 section p{
@@ -98,6 +100,11 @@ section p{
 
 #content .container{
     display: block;
+    text-align: center;
+}
+
+#content{
+    background-color: #d1ebf1;
 }
 
 .contact-methods{
@@ -117,27 +124,46 @@ form textarea{
     height: 150px;
 }
 
-section h3{
-    margin-bottom: 16px;
-}
-
 form button{
-    background-color: #182c61;
+    background-color: #055565;
     color: #ecf0f1;
     border: none;
     cursor: pointer;
 }
 
 form button:hover{
-    background-color: #2e478d;
+    background-color: #2c94a8;
 }
 
 input:focus, textarea:focus{
-    outline-color: #182c61;
+    outline-color: #054957;
 }
 
 footer{
-    background-color: #182c61;
+    background-color: #055565;
     color: #ecf0f1;
-    padding: 16px 0;
+    padding: 16px;
+}
+
+.loc li a{
+    color: #054957;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+  }
+
+.produtos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.produtos .img-container{
+    text-align: center;
+}
+
+.img-container img{
+    height: 140px;
+    margin-right: 10px;
 }
